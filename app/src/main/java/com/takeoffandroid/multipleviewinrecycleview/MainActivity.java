@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private void findViews() {
+        //button click
         btnBoth = (Button)findViewById( R.id.btn_both );
         btnHeader = (Button)findViewById( R.id.btn_header );
         btnFooter = (Button)findViewById( R.id.btn_footer );
